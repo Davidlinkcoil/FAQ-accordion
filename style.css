@@ -1,0 +1,88 @@
+.hidden{
+   display: none;
+}
+.show{
+    display: block;
+    text-align: left;
+    color : hsl(292, 16%, 49%);
+}
+h1{
+    font-size: 4em;
+    margin-left: 15px;
+}
+body{
+    min-height: 100vh;
+    font-family: 'Work Sans', sans-serif;
+    color: hsl(292, 42%, 14%);
+    background-color: hsl(277, 87%, 94%);
+    background-image: url("assets/images/background-pattern-desktop.svg");
+    /* background-size: 100%  45%; */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: top;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+main{
+    width : 400px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    /* align-items:center; */
+    justify-content: center;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+header{
+    display: flex;
+}
+header img{
+    width:30px;
+}
+.question{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+section img{
+    width : 20px;
+}
+hr{
+   flex: 0 0 100%; 
+}
+button {
+    /* align-self: flex-end; */
+    padding: 0;
+    border: none;
+    cursor: pointer;
+    appearance: none;
+    background-color: inherit;
+  }
+.btn-plus{
+    background: url('assets/images/icon-plus.svg') center no-repeat;
+    background-size: 100% 100%;
+    cursor:pointer;
+    border:none;
+    appearance: none;
+    /* border-radius: 50px; */
+    width:20px;
+    height:20px;
+    object-fit: fill ;
+}
+.btn-minus{
+    background: url('assets/images/icon-minus.svg') center no-repeat;
+    background-size: 100% 100%;
+    cursor:pointer;
+    border:none;
+    appearance: none;
+    /* border-radius: 50px; */
+    width:20px;
+    height:20px;
+    object-fit: fill ;
+}
